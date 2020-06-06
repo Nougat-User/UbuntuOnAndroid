@@ -23,5 +23,5 @@ echo "127.0.0.1 localhost" > /data/local/ubuntu/etc/hosts
 echo "::1   localhost localhost.localdomain" >> /data/local/ubuntu/etc/hosts
 
 #Done
-echo "Start Ubuntu 20.04 - ubstart"
+echo "Start Ubuntu 18.04 - ubstart"
 echo "After chrooting run post-setup.sh!"
