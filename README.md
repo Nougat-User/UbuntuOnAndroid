@@ -4,7 +4,9 @@
 ```
 cd /sdcard/UbuntuOnAndroid-master/
 sh install.sh
+ubstart
 ```
+*Note: After chrooting in Ubuntu run **bash ./post-setup.sh** for fix internet and update system*
 
 # Removing Ubuntu
 - Restart your device for unmount all resources
