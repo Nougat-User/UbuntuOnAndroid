@@ -17,7 +17,7 @@ rm -rf /data/local/ubuntu
 ```
 # Other Ubuntu rootfs architectures
 - Download rootfs for your CPU architecture on [Ubuntu Rootfs Repository](http://cdimage.ubuntu.com/ubuntu-base/releases/)
-- Put download archive to directory "/sdcard/UbuntuOnAndroid-master/rootfs"
+- Put downloaded archive to directory "/sdcard/UbuntuOnAndroid-master/rootfs"
 - Rename archive from "ubuntu-base-*.tar.gz" to "ubuntu-rootfs.tar.gz"
   
 # Android 10(Q) issuse
