@@ -20,7 +20,7 @@ echo "nameserver 8.8.4.4" >> /data/local/ubuntu/etc/resolv.conf
 chmod 644 /data/local/ubuntu/etc/resolv.conf
 mkdir -p /data/local/ubuntu/dev
 echo "127.0.0.1 localhost" > /data/local/ubuntu/etc/hosts
-echo "::1   localhost localhost.localdomain" >> /data/local/ubuntu/etc/hosts
+echo "::1   localhost.localdomain" >> /data/local/ubuntu/etc/hosts
 
 #Done
 echo "Start Ubuntu 18.04 - ubstart"
