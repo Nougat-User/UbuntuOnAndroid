@@ -1,5 +1,10 @@
 #!/system/bin/sh
 
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
+
 #Read-Write system
 mount -o rw,remount /
 mount -o rw,remount /system
